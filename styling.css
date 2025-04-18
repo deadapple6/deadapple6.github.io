@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+margin: 0;
+font-family: 'Anton', sans-serif;
+font-weight: 400;
+font-style: normal;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+border: none;
+text-decoration: none;
+}
+
+
+body {
+    background-color: rgb(141, 218, 168);
+}
+
+
+html {
+    font-size: large;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 9%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: rgb(73, 114, 96);
+
+}
+
+
+.button-container {
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200%;
+    margin-bottom: 1px;
+}
+
+.button-container a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    padding: 1px;
+    text-align: center;
+
+}
+
+
+.Profile-pic {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile-pic img {
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.Home-content {
+
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto 0 auto;
+    padding: 0 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home-content h1 {
+    line-height: 1;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #ffffff;
+    padding: 0px;
+    max-width: 650px;
+}
+
+.Home-content h2 {
+    font-size: 1.0rem;
+    color: white;
+    letter-spacing: 0.4px;
+    margin: 0 0 8px 0;
+    text-decoration: underline;
+    padding: 0%;
+}
+
+.Home-content p {
+    align-items: center;
+    font-size: 0.95rem;
+    color: white;
+    padding: 0%;
+    line-height: 1.4;
+    max-width: 500px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.work-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 20px;
+    justify-items: center;
+    align-items: start;
+    }
+
+    .work-gallery img {
+        width: 95%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        margin: 0;
+    }
+
+    section h2 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    }
+
+
+    .contact-section {
+        margin-top: 150px;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    
+    
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+    
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+textarea {
+    width: 50%;
+    padding: 20px;
+    height: 50%;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: rgb(83, 107, 90);
+}
+
+input[type="text"], input[type="email"] {
+    font-size: 1.2rem;  
+    width: 50%;       
+    padding: 15px;     
+    border-radius: 5px; 
+    border: 1px solid #ddd; 
+    background-color: rgb(245, 245, 245);      
+    margin-bottom: 15px; 
+}
+
+input[type="submit"] {
+    font-size: 1.2rem;  
+    font-weight: 1;            
+    padding: 15px 30px;            
+    background-color: rgb(73, 114, 96); 
+    color: white;                  
+    border-radius: 5px; 
+}
+
+
+
+
+
+h1 {
+    font-size: small;
+}
